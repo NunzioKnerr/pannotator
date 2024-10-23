@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+docs/pannotator_vignette.html
+docs/pannotator_vignette.pdf
+docs/images/*
+docs/overlay_files/*
+docs/goproMaxStills2kmzConverter.html
+docs/goproMaxStills2kmzConverter.pdf
