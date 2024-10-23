@@ -1,0 +1,55 @@
+project:
+  type: website
+  
+website:
+  title: Pannotator
+  navbar:
+    background: primary
+    search: true
+    logo: "pannotator_hex_icon.png"
+    left:
+      - text: "Introduction"
+        href: index.qmd
+      - text: "How"
+        menu:
+          - text: "Collect"
+            href: collect.qmd
+          - text: "Annotate"
+            href: docs/pannotator_vignette.html
+          - text: "Analyse"
+            href: docs/pannotator_vignette.html
+
+  sidebar:
+    - title: "Introduction"
+      style: "docked"
+      background: light
+      contents:
+        - what.qmd
+        - how.qmd
+        - "How"
+        - collect.qmd
+        - annotate.qmd
+        - analyse.qmd
+
+    - title: "Collect"
+      contents:
+        - "Camera type"
+        - gopro_max.qmd
+        - insta_360_x4.qmd
+        - kandao_qoo_cam_3_ultra.qmd
+        - dji_360.qmd
+        - dji_mini_3_drone.qmd
+        - "Format"
+        - img2KMZ.qmd
+        - video.qmd
+        - "Processing options"
+        - add_overlay.qmd
+
+    - title: "Annotate"
+      contents:
+        - pannotator_vignette.html
+
+    - title: "Analyse"
+      contents:
+        - examples.qmd
+        - data_validation.qmd
